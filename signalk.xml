@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RealDash CAN XML description file, version 2 Requires RealDash version 1.5.8 or newer -->
+<RealDashCAN version="2">
+  <frames>
+    <frame id="0x300">
+        <value targetId="37" units="RPM" offset="0" length="2"></value>  <!-- RPM -->
+    </frame>
+    <frame id="0x301">
+      <value name="SignalK: SOG" units="mph" offset="0" length="2"></value>  <!-- RPM -->
+      <value targetId="64" units="mph" offset="2" length="2"></value>  <!-- RPM -->
+    </frame>
+  </frames>
+</RealDashCAN>
